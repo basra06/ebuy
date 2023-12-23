@@ -1,0 +1,65 @@
+name: ebuy
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+# ----------------------- Packages --------------------------- #
+dependencies:
+  flutter:
+    sdk: flutter
+
+# Utility packages
+
+
+#Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+
+#state Management
+  get: ^4.6.6
+
+#Product Specific
+
+
+
+#---------------------------------------- Packages End -----------------------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+#------------------------local Assets------------------------
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/logos/
+
+#--------------------------local Fonts------------------------
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf 
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf 
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf 
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttfl
+          weight: 800
