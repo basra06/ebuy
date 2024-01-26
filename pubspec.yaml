@@ -17,13 +17,18 @@ dependencies:
 
 #Icons
   iconsax: ^0.0.8
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.6
 
 #state Management
   get: ^4.6.6
+  get_storage: ^2.1.1
 
 #Product Specific
-
+  http: ^1.2.0
+  intl: ^0.19.0
+  logger: ^2.0.2+1
+  url_launcher: ^6.2.4
+  flutter_native_splash: ^2.3.9
 
 
 #---------------------------------------- Packages End -----------------------------#
