@@ -14,9 +14,9 @@ class EAppTheme {
   static ThemeData lightTheme = ThemeData(
       useMaterial3: true,
       fontFamily: 'Poppins',
-      brightness: Brightness.light,
+    brightness: Brightness.dark,
       primaryColor: Colors.blue,
-      scaffoldBackgroundColor: Colors.black,
+    scaffoldBackgroundColor: Colors.white,
     textTheme: ETextTheme.lightTextTheme,
     chipTheme: EChipTheme.lightChipTheme,
     appBarTheme: EAppBarTheme.lightAppBarTheme,
@@ -30,9 +30,9 @@ class EAppTheme {
   static ThemeData darkTheme = ThemeData(
       useMaterial3: true,
       fontFamily: 'Poppins',
-      brightness: Brightness.dark,
+    brightness: Brightness.light,
       primaryColor: Colors.blue,
-      scaffoldBackgroundColor: Colors.white,
+    scaffoldBackgroundColor: Colors.black,
     textTheme: ETextTheme.darkTextTheme,
     chipTheme: EChipTheme.darkChipTheme,
     appBarTheme: EAppBarTheme.darkAppBarTheme,

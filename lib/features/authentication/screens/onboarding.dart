@@ -15,25 +15,28 @@ class OnBoardingScreen extends StatelessWidget {
           // horizontal scrollable pages
           PageView(
             children: [
-              Column(
-                children: [
-                  Image(
-                    width: EHelperFunctions.screenWidth() * 0.8,
-                    height: EHelperFunctions.screenWidth() * 0.6,
-                    image: const AssetImage(EImages.onBoardingImage1),
-                  ),
-                  Text(
-                    ETexts.onBoardingTitle1,
-                    style: Theme.of(context).textTheme.bodyLarge,
-                    textAlign: TextAlign.center,
-                  ),
-                  const SizedBox(height: ESizes.spaceBtwItems),
-                  Text(
-                    ETexts.onBoardingSubTitle1,
-                    style: Theme.of(context).textTheme.bodyMedium,
-                    textAlign: TextAlign.center,
-                  ),
-                ],
+              Padding(
+                padding: const EdgeInsets.all(ESizes.defaultSpace),
+                child: Column(
+                  children: [
+                    Image(
+                      width: EHelperFunctions.screenWidth() * 0.8,
+                      height: EHelperFunctions.screenHeight() * 0.6,
+                      image: const AssetImage(EImages.onBoardingImage1),
+                    ),
+                    Text(
+                      textAlign: TextAlign.center,
+                      ETexts.onBoardingTitle1,
+                      style: Theme.of(context).textTheme.bodyLarge,
+                    ),
+                    const SizedBox(height: ESizes.spaceBtwItems),
+                    Text(
+                      ETexts.onBoardingSubTitle1,
+                      style: Theme.of(context).textTheme.bodyMedium,
+                      textAlign: TextAlign.center,
+                    ),
+                  ],
+                ),
               )
             ],
           )
